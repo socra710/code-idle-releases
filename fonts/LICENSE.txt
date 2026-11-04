@@ -1,0 +1,10 @@
+DungGeunMo + Fixedsys (DungGeunMo.woff2)
+
+Original DungGeunMo: Kim Jung-tae
+Fixedsys Excelsior: Darien Gavin Valentine
+Combined and refined font distribution: https://cactus.tistory.com/193
+Webfont archive: https://github.com/fonts-archive/DungGeunMo
+
+The distributor declares this font public domain, matching the original fonts,
+and permits redistribution, modification, and commercial use.
+Retrieved on 2026-11-03. The font is bundled unmodified for offline use.

@@ -3,7 +3,9 @@
 CODE IDLE Windows x64 설치파일과 자동 업데이트 배포 전용 저장소입니다.
 게임 소스와 서명 개인키는 이 저장소에 포함하지 않습니다.
 
-[최신 설치판 다운로드](https://github.com/socra710/code-idle-releases/releases/latest)
+[웹에서 바로 플레이](https://socra710.github.io/code-idle-releases/) · [최신 Windows 설치판 다운로드](https://github.com/socra710/code-idle-releases/releases/latest)
+
+웹 플레이는 설치 없이 이용할 수 있으며, 진행 상황은 사용 중인 브라우저에 저장됩니다.
 
 자동 업데이트를 지원하지 않는 이전 설치판은 v0.1.1 이상 설치판을 한 번 수동으로 덮어 설치해야 합니다.
 그 이후 새 버전은 앱의 설정에서 다운로드하고 저장 후 설치·재시작할 수 있습니다.
