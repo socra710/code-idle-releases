@@ -2,140 +2,25 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta name="google-site-verification" content="_BcZCobbSh33tZgSUt1v0YdREiBOPyzlOVikUC3Yzd4" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#111a24" />
-    <meta name="description" content="코딩하고 성장하며 나만의 작업실을 꾸미는 CODE IDLE. 설치 없이 웹에서 바로 플레이하세요." />
-    <title>CODE IDLE — 나만의 작은 개발 작업실</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111827" />
+    <title>CODE IDLE</title>
     <link rel="icon" type="image/png" sizes="32x32" href="/code-idle-releases/favicon-32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/code-idle-releases/favicon-16.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/code-idle-releases/apple-touch-icon.png" />
-    <script type="module" crossorigin src="/code-idle-releases/assets/landing-D5Js2cwD.js"></script>
-    <link rel="modulepreload" crossorigin href="/code-idle-releases/assets/modulepreload-polyfill-B5Qt9EMX.js">
-    <link rel="modulepreload" crossorigin href="/code-idle-releases/assets/presence-DWYmESeH.js">
-    <link rel="modulepreload" crossorigin href="/code-idle-releases/assets/rainbow-event-CZUzDuq6.js">
-    <link rel="stylesheet" crossorigin href="/code-idle-releases/assets/landing-8Y5RfibW.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/code-idle-releases/apple-touch-icon.png" />
+    <link rel="preload" href="/code-idle-releases/fonts/DungGeunMo.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/code-idle-releases/game-font.css" />
+    <script type="module" crossorigin src="/code-idle-releases/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+    <script type="module" crossorigin src="/code-idle-releases/assets/main-BEIzjJlH.js"></script>
+    <link rel="stylesheet" crossorigin href="/code-idle-releases/assets/main-3vLMF4PA.css">
   </head>
   <body>
-    <div class="page">
-      <header class="topbar">
-        <a class="brand" href="#" aria-label="CODE IDLE 홈">
-          <span class="brand-mark">C/</span>
-          <span>CODE IDLE<small>YOUR LITTLE DEV DESK</small></span>
-        </a>
-        <nav class="nav" aria-label="주요 메뉴">
-          <a href="#features">게임 소개</a>
-          <a class="nav-download" href="https://github.com/socra710/code-idle-releases/releases/latest">Windows 다운로드 ↗</a>
-        </nav>
-      </header>
-
-      <main>
-        <section class="hero">
-          <div class="hero-copy">
-            <div class="eyebrow">A tiny desk for your dev life</div>
-            <h1>작은 책상 위,<br />나만의 <em>개발 일지</em></h1>
-            <p class="lead">코딩하고, 성장하고, 나만의 작업실을 꾸며보세요.<br />설치 없이 웹에서 바로 시작할 수 있어요.</p>
-            <div class="actions">
-              <a class="button button-primary" href="./play.html"><span class="arrow">▶</span> 웹에서 바로 플레이</a>
-              <a class="button button-secondary" href="https://github.com/socra710/code-idle-releases/releases/latest"><span class="arrow">↓</span> Windows 앱 다운로드</a>
-            </div>
-            <div class="trust"><i></i> 무료로 플레이 · 진행 상황은 이 브라우저에 저장돼요</div>
-            <div class="landing-presence" id="landing-presence" title="최근 6분 내 활동한 로그인·게스트 포함 대략적인 접속 수 · 집계 시각 확인 중">
-              <span><b aria-hidden="true">●</b> 지금 약 <span data-presence-active>—</span>명 플레이 중</span>
-              <span>· 누적 등록 플레이어 <span data-presence-registered>—</span>명</span>
-            </div>
-            <aside class="event-banner" aria-label="무지개 벌레 이벤트 사전 안내">
-              <img src="/code-idle-releases/assets/scenes/events/rainbow-bug.png" alt="" width="44" height="44" />
-              <div><strong>무지개 벌레를 찾아라</strong><small data-event-status>11월 9일 시작 예정 · 지금은 일반 벌레만 출현</small></div>
-              <a href="#rainbow-event">상세 참여 방법</a>
-            </aside>
-          </div>
-
-          <div class="scene-wrap" aria-label="게임 화면 미리보기">
-            <div class="scene-glow"></div>
-            <div class="floating-tag tag-top"><span>+1 CODE</span> 오늘도 한 줄씩 성장 중</div>
-            <div class="desk-widget">
-              <div class="widget-bar"><span>CODE IDLE <small>/ MY WORKSPACE</small></span><span class="dots"><i></i><i></i><i></i></span></div>
-              <div class="desk">
-                <div class="window"><span class="moon"></span></div>
-                <div class="plant"></div><div class="plant-pot"></div>
-                <div class="monitor"><div class="monitor-screen"><b>const</b> dream = () =&gt; {<br />&nbsp; keepGoing();<br />&nbsp; growEveryDay();<br />}<br /><br />&gt; building... <b>♥</b></div></div>
-                <div class="monitor-stand"></div><div class="monitor-base"></div><div class="keyboard"></div>
-                <div class="character" aria-hidden="true"><div class="hair"></div><div class="face"></div><div class="eye"></div><div class="body"></div><div class="arm"></div><div class="leg"></div></div>
-              </div>
-              <div class="stats">
-                <div class="stat"><small>오늘의 코드</small><strong>1,284</strong></div>
-                <div class="stat"><small>개발자 레벨</small><strong>Lv. 12</strong></div>
-                <div class="stat"><small>작업실</small><strong>COZY</strong></div>
-              </div>
-            </div>
-            <div class="floating-tag tag-bottom"><span>✦</span> 작은 루틴이 큰 성장을 만들어요</div>
-          </div>
-        </section>
-
-        <section class="section" id="features">
-          <div class="section-inner">
-            <div class="section-head">
-              <div class="eyebrow">Make progress, gently</div>
-              <h2>바쁜 하루에도, 나만의 페이스로</h2>
-              <p>책상 위 작은 개발자와 함께 코딩 습관을 만들고, 플레이할수록 달라지는 작업실을 만나보세요.</p>
-            </div>
-            <div class="feature-grid">
-              <article class="feature"><div class="feature-icon">&gt;_</div><h3>코딩하며 자라나요</h3><p>코드를 생산하고 프로젝트를 완료하며 레벨과 스킬을 차근차근 올려요.</p></article>
-              <article class="feature"><div class="feature-icon">✦</div><h3>나만의 작업실</h3><p>장비와 의상을 모으고 계절과 활동에 따라 달라지는 장면을 꾸며요.</p></article>
-              <article class="feature"><div class="feature-icon">♡</div><h3>가볍게, 꾸준히</h3><p>짧게 들러도 괜찮아요. 작은 성취가 쌓여 나만의 개발 일지가 됩니다.</p></article>
-            </div>
-          </div>
-        </section>
-
-        <section class="section landing-event" id="rainbow-event" aria-labelledby="rainbow-event-title">
-          <div class="section-inner">
-            <div class="section-head">
-              <div class="eyebrow">A rare little visitor</div>
-              <h2 id="rainbow-event-title">무지개 벌레를 찾아라</h2>
-              <p data-event-status>2026년 11월 9일 00:00 ~ 11월 22일 23:59 KST</p>
-            </div>
-            <div class="landing-event-content">
-              <div class="landing-event-art"><img src="/code-idle-releases/assets/scenes/events/rainbow-bug.png" alt="희귀 무지개 벌레 미리보기" width="104" height="104" /><span>RARE ENCOUNTER</span></div>
-              <div>
-                <p class="landing-event-notice" data-event-prize>투썸플레이스 5천원권 × 10명 · 11월 24일 추첨 · 11월 27일까지 이메일 발송</p>
-                <p>무지개 벌레는 <strong>11월 9일 00:00 KST부터</strong> 출현하며 시작 전에는 일반 벌레만 나와요. 로그인하고 서버에 연결해 플레이하면, 이벤트 기간의 <strong>5분 배치당 1%</strong> 확률로 만날 수 있어요. 벌레 한 마리당 확률이 아니며, 매 배치는 독립 추첨이에요.</p>
-                <ol>
-                  <li>로그인 후 <strong>도감 → 이벤트</strong>에서 참여 조건과 경품 발송용 로그인 이메일 사용에 먼저 동의해요.</li>
-                  <li>참여 동의 후 첫 서버 인증 포획이 도감에 기록되면 <strong>자동 응모</strong>돼요. 계정당 1회예요.</li>
-                  <li>응모 계정 중 추첨 후 서버 기록과 계정 소유자를 확인해요. GitHub 스크린샷 공유는 선택이며 응모 조건이 아니에요.</li>
-                </ol>
-                <p>유효 응모자 중 10명을 무작위 추첨하며, 10명 이하면 전원 당첨이에요. 재포획으로 응모 횟수가 늘지 않으며 다계정 부정 참여가 확인되면 제외해요. 출현·포획·경품 지급을 보장하지 않습니다. 구매나 GitHub 등록은 필요하지 않아요.</p>
-                <p>당첨 시 서버 포획 계정을 확인한 뒤 운영자가 Google 로그인 계정의 확인된 이메일로 직접 발송합니다. 참여 전 이메일 사용 동의를 직접 선택해 주세요. 오피스콘 발송 서비스를 이용하면 발송에 필요한 이메일을 해당 업체가 처리해요.</p>
-                <p>12월 4일까지 발송 문제를 해결하지 못하면 사전 추첨한 예비 순번으로 대체해요. 이미 발급된 쿠폰은 무효화·회수가 확인되기 전 중복 발급하지 않아요. 별도 발송 명단은 최종 지급·문의 처리 종료 후 30일 이내 삭제하며 도감 기록은 유지해요.</p>
-                <p>금액권은 국내 일부 매장 제외 사용 가능해요. 현재 판매처 안내 유효기간은 61일이며 실제 만료일은 쿠폰에 표시해요. 이벤트용 쿠폰은 기간 연장·환불·잔액 환불이 불가해요. <a href="https://www.officecon.co.kr/product/sales/view?productId=0000030238" target="_blank" rel="noopener noreferrer">상품 이용 조건 ↗</a></p>
-                <p class="landing-event-safety">스크린샷만으로는 인증되지 않아요. 인증 참조 복사나 공유로 추가 응모되지 않으며 자동 응모는 당첨을 뜻하지 않아요. 공개 이슈에 이메일·계정 UID·연락처를 적지 마세요. 자동 업로드는 하지 않아요.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="download" id="download">
-          <div class="download-inner">
-            <div>
-              <div class="eyebrow">Play your way</div>
-              <h2>브라우저에서도, Windows 앱에서도</h2>
-              <p>웹에서 바로 시작하거나 앱을 다운로드해 데스크톱에서 이어가세요.</p>
-            </div>
-            <div class="download-actions">
-              <a class="button button-secondary" href="https://github.com/socra710/code-idle-releases/releases">모든 릴리즈 보기 <span class="arrow">↗</span></a>
-              <a class="button button-primary" href="https://github.com/socra710/code-idle-releases/releases/latest">Windows 다운로드 <span class="arrow">↓</span></a>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer>
-        <span>© CODE IDLE · 나만의 속도로 성장하는 작은 작업실</span>
-        <a href="./privacy.html">개인정보처리방침</a>
-        <a href="./terms.html">서비스 이용약관</a>
-        <a href="https://github.com/socra710/code-idle-releases/releases/latest">릴리즈 및 다운로드 ↗</a>
-      </footer>
-    </div>
+    <div id="root">
+      <div class="startup-logo" role="status">
+        <span class="startup-mark" aria-hidden="true">C/</span>
+        <strong>CODE IDLE</strong>
+        <p>작업실을 준비하고 있어요...</p>
+      </div>
+    </div>
   </body>
 </html>
