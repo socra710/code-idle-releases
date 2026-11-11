@@ -1,0 +1,659 @@
+{
+  "status": "user-approved dog and matching cat set; installed in gameplay",
+  "authoring": {
+    "method": "completed whole-character atlas cells; no body/leg synthesis",
+    "source": "scripts/assets/pixel-pets/whole-pose",
+    "columns": 8,
+    "rows": [
+      "walk",
+      "sit",
+      "run",
+      "jump",
+      "sleep",
+      "lieDown"
+    ]
+  },
+  "frameSize": 96,
+  "nativeSourceSize": 64,
+  "sourceOffset": [
+    16,
+    24
+  ],
+  "anchor": [
+    48,
+    80
+  ],
+  "baseline": 79,
+  "sampling": "nearest-neighbor",
+  "sources": {
+    "dog": "e8666da57bc0337b64b883bdbded01606045409d03277a5a2648139d1718866c",
+    "cat": "0748b064a6bc6f061d709122b6704d910662a722fd2dbde87af8c661fe3f7e4e"
+  },
+  "secondaryParts": [
+    {
+      "file": "tail.png",
+      "frames": 8,
+      "name": "tail",
+      "origin": [
+        0,
+        0
+      ],
+      "attachment": [
+        48,
+        80
+      ],
+      "pivot": [
+        48,
+        80
+      ],
+      "species": "both",
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "file": "ear.png",
+      "frames": 2,
+      "name": "ear",
+      "origin": [
+        0,
+        0
+      ],
+      "attachment": [
+        48,
+        80
+      ],
+      "pivot": [
+        48,
+        80
+      ],
+      "species": "both",
+      "indices": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "file": "eye.png",
+      "frames": 2,
+      "name": "eye",
+      "origin": [
+        0,
+        0
+      ],
+      "attachment": [
+        48,
+        80
+      ],
+      "pivot": [
+        48,
+        80
+      ],
+      "species": "both",
+      "indices": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "file": "toy.png",
+      "frames": 2,
+      "name": "toy",
+      "origin": [
+        0,
+        0
+      ],
+      "attachment": [
+        80,
+        80
+      ],
+      "pivot": [
+        80,
+        80
+      ],
+      "species": "both",
+      "indices": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "file": "butterfly.png",
+      "frames": 2,
+      "name": "butterfly",
+      "origin": [
+        0,
+        0
+      ],
+      "attachment": [
+        68,
+        30
+      ],
+      "pivot": [
+        68,
+        30
+      ],
+      "species": "both",
+      "indices": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    }
+  ],
+  "clips": {
+    "original": {
+      "label": "기준 원본",
+      "loop": false,
+      "durationsMs": {
+        "dog": [
+          1000
+        ],
+        "cat": [
+          1000
+        ]
+      },
+      "layers": [
+        {
+          "file": "original.png",
+          "frames": 1,
+          "name": "whole",
+          "origin": [
+            0,
+            0
+          ],
+          "attachment": [
+            48,
+            80
+          ],
+          "pivot": [
+            48,
+            80
+          ],
+          "species": "both",
+          "indices": [
+            0
+          ]
+        }
+      ]
+    },
+    "idle": {
+      "label": "대기 · 보조 레이어",
+      "loop": true,
+      "durationsMs": {
+        "dog": [
+          1000,
+          700,
+          400,
+          70,
+          100,
+          70,
+          500,
+          700
+        ],
+        "cat": [
+          1200,
+          800,
+          400,
+          70,
+          100,
+          70,
+          600,
+          800
+        ]
+      },
+      "layers": [
+        {
+          "file": "original.png",
+          "frames": 1,
+          "name": "body",
+          "origin": [
+            0,
+            0
+          ],
+          "attachment": [
+            48,
+            80
+          ],
+          "pivot": [
+            48,
+            80
+          ],
+          "species": "both",
+          "indices": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "file": "toy.png",
+          "frames": 2,
+          "name": "toy",
+          "origin": [
+            0,
+            0
+          ],
+          "attachment": [
+            80,
+            80
+          ],
+          "pivot": [
+            80,
+            80
+          ],
+          "species": "dog",
+          "indices": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "file": "butterfly.png",
+          "frames": 2,
+          "name": "butterfly",
+          "origin": [
+            0,
+            0
+          ],
+          "attachment": [
+            68,
+            30
+          ],
+          "pivot": [
+            68,
+            30
+          ],
+          "species": "cat",
+          "indices": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "walk": {
+      "label": "보행",
+      "loop": true,
+      "durationsMs": {
+        "dog": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ],
+        "cat": [
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90
+        ]
+      },
+      "layers": [
+        {
+          "file": "walk.png",
+          "frames": 8,
+          "name": "whole",
+          "origin": [
+            0,
+            0
+          ],
+          "attachment": [
+            48,
+            80
+          ],
+          "pivot": [
+            48,
+            80
+          ],
+          "species": "both",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    "sit": {
+      "label": "앉기",
+      "loop": false,
+      "durationsMs": {
+        "dog": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120
+        ],
+        "cat": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120
+        ]
+      },
+      "layers": [
+        {
+          "file": "sit.png",
+          "frames": 8,
+          "name": "whole",
+          "origin": [
+            0,
+            0
+          ],
+          "attachment": [
+            48,
+            80
+          ],
+          "pivot": [
+            48,
+            80
+          ],
+          "species": "both",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    "run": {
+      "label": "달리기",
+      "loop": true,
+      "durationsMs": {
+        "dog": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "cat": [
+          75,
+          75,
+          75,
+          75,
+          75,
+          75,
+          75,
+          75
+        ]
+      },
+      "layers": [
+        {
+          "file": "run.png",
+          "frames": 8,
+          "name": "whole",
+          "origin": [
+            0,
+            0
+          ],
+          "attachment": [
+            48,
+            80
+          ],
+          "pivot": [
+            48,
+            80
+          ],
+          "species": "both",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    "jump": {
+      "label": "점프",
+      "loop": false,
+      "durationsMs": {
+        "dog": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "cat": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ]
+      },
+      "layers": [
+        {
+          "file": "jump.png",
+          "frames": 8,
+          "name": "whole",
+          "origin": [
+            0,
+            0
+          ],
+          "attachment": [
+            48,
+            80
+          ],
+          "pivot": [
+            48,
+            80
+          ],
+          "species": "both",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    "sleep": {
+      "label": "수면",
+      "loop": true,
+      "durationsMs": {
+        "dog": [
+          500,
+          500,
+          500,
+          500,
+          500,
+          500,
+          500,
+          500
+        ],
+        "cat": [
+          500,
+          500,
+          500,
+          500,
+          500,
+          500,
+          500,
+          500
+        ]
+      },
+      "layers": [
+        {
+          "file": "sleep.png",
+          "frames": 8,
+          "name": "whole",
+          "origin": [
+            0,
+            0
+          ],
+          "attachment": [
+            48,
+            80
+          ],
+          "pivot": [
+            48,
+            80
+          ],
+          "species": "both",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    "lieDown": {
+      "label": "눕기",
+      "loop": false,
+      "durationsMs": {
+        "dog": [
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          140
+        ],
+        "cat": [
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          140
+        ]
+      },
+      "layers": [
+        {
+          "file": "lieDown.png",
+          "frames": 8,
+          "name": "whole",
+          "origin": [
+            0,
+            0
+          ],
+          "attachment": [
+            48,
+            80
+          ],
+          "pivot": [
+            48,
+            80
+          ],
+          "species": "both",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    }
+  }
+}
